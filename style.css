@@ -1,0 +1,43 @@
+.big-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    max-width: 1900px;
+    margin: auto;
+
+
+}
+.div-droit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+
+
+}
+.div-gauch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+
+
+}
+.div-black{
+    background: black;
+}
+.div-white{
+    color: none;
+}
+#cercle{
+    width: 305px;
+    height:  305git px;
+    border-radius: 100%;
+}
+.cercle-noir{
+    background: black;
+}
+.cercle-white{
+    background-color: white;
+}
+.cercle-biz{
+    background-color: rgb(238,233, 233);
+}
